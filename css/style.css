@@ -387,17 +387,19 @@ footer{
   cursor: pointer;
 }
 
-.coco_container{
+#coco_container {
   display: flex;
-  justify-content: center;
-  flex-direction: row;
+  align-items: center;
+  flex-direction: column;
   flex-wrap: wrap;
 }
 
+
 .coco_img {
   margin: 10px;
-  width: 85%;
+  width: 250px;
 }
+
 
 .contact-picture {
   background-image: url('../images/contact-film.jpeg');
@@ -491,6 +493,17 @@ footer{
     grid-column: 2;
   }
   
+  #coco_container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .coco_img {
+    margin: 10px;
+    width: 300px;
+  }
 
 }
 
@@ -540,4 +553,14 @@ footer{
   .main-img{
     grid-column: 2 / span 2;
   }
+
+  #coco_container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: stretch;
+  }
+
+
 }
