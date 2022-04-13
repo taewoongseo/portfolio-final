@@ -5,7 +5,7 @@
   }
 
   #coco-main p{
-    color: white;
+    color: black;
     font-size: 18px;
     font-weight: bold;
   }
@@ -417,7 +417,6 @@ footer{
 .contact-p {
   text-align: center;
   margin: 0 auto;
-  font-weight: bolder;
 }
 
 
