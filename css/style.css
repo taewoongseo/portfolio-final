@@ -6,6 +6,8 @@
 
   #coco-main p{
     color: white;
+    font-size: 18px;
+    font-weight: bold;
   }
 
   #coco-main .flipcard-back p {
@@ -415,6 +417,7 @@ footer{
 .contact-p {
   text-align: center;
   margin: 0 auto;
+  font-weight: bolder;
 }
 
 
