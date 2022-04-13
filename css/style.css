@@ -426,7 +426,15 @@ footer{
   }
 
   .flipcard-inner {
-    transition: transform none;
+    transition: none;
+  }
+
+  .flipcard:hover .flipcard-inner, .flipcard:active .flipcard-inner, .flipcard:focus .flipcard-inner, .flip-card:focus-within .flipcard-inner{
+    transform: none;
+  }
+  
+  .flipcard.focus-within .flipcard-inner{
+    transform: none;
   }
 
   .contact-picture {
